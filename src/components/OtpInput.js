@@ -31,9 +31,9 @@ const OtpInput = ({ otpCharCount }) => {
 
     return (
         <div>
-
+            <h3>OTP Input</h3>
             {
-                otpInput.map((item, index) => (
+                otpInput.map((_, index) => (
                     <input key={index} type='text'
                         className="otp-box"
                         value={otpInput[index]}
